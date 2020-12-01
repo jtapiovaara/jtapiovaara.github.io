@@ -1,1 +1,46 @@
 Hello World
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<div class="container">
+<h2> No Template is fine also </h2>
+Tämähän menee tyylikkäästi näinkin.  Kirjoitettuna suoraan views.py -tiedostoon.
+ Jos tämä menisi vain näillä staattisilla, niin koko paketin voisi kirjoittaa suoraan Pythonilla.
+<p>Django HttpResponse jyrää.</p>
+<hr>
+<h3>Vaikkapa tyylikkäästi muotoiltu taulukko</h3>
+<table class="table">
+<thead>
+<tr>
+<th class="text-primary">Etunimi</th>
+<th class="text-info">Sukunimi</th>
+<th class="text-danger">Site</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Jouni</td>
+<td>Tapiovaara</td>
+    <td>
+        <a href="http://www.jtamefiles.fi/projektit" target = _blank >My Site</a>
+    </td>
+</tr>
+<tr>
+<td>Ruben</td>
+<td>Stibu</td>
+<td>rs@example.com</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3>Tai Bootstrapin muokkaama TODO list</h3>
+<h4>Tehtävälista</h4>
+<p>These yoy need to get today:</p>
+<dl>
+<dt>Kahvi</dt>
+<dd>- kuuma, musta juoma</dd>
+<dt>Maito</dt>
+<dd>- kylmä, valkoinen juoma</dd>
+<dt>Kaurajuoma</dt>
+<dd>- kylmä, moderni juoma</dd>
+</dl>
+<hr>
+</div>
