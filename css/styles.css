@@ -2,7 +2,19 @@ h2{
   color: darkcyan;
 }
 
+body {
+  /*background-color: rgba(255,0,0, 0.5);*/
+}
+
 .bgimg {
+  background-color: rgba(255,0,0, 0.5);
+}
+
+.asia {
   font-family: "PoliteType", sans-serif;
+}
+
+.mygits {
+  background-color: rgba(255,255,0, 0.5);
 }
 
