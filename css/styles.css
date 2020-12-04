@@ -1,5 +1,5 @@
 h2{
-  color: darkcyan;
+  color: #336699;
 }
 
 p.high {
@@ -13,8 +13,9 @@ em {
   border: 2px solid darkcyan;
 }
 
-strong {
+.refet {
   background-color: rgba(100,200,100, 0.5);
+  font-style: oblique;
 }
 
 .otsikkotausta {
@@ -26,10 +27,10 @@ strong {
 }
 
 .mygits {
-  background-color: rgba(255,255,0, 0.5);
+  background-color: rgba(255,255,0, 0.2);
 }
 
 #this {
-  background-color: rgba(255,0,0, 0.2);
+  background-color: rgba(255,0,0, 0.4);
 }
 
