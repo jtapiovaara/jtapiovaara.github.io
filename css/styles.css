@@ -3,8 +3,16 @@ body {
 }
 
 h2{
-  border: 1px dotted #d5ffa2;
+  border-bottom: 1px dotted #d5ffa2;
   color: #996633;
+  background-image: url("../images/lähiluonto_logo_2.png");
+  background-size: 50px;
+  background-repeat: no-repeat;
+}
+
+meter {
+  background-color: #faffe3;
+
 }
 
 p.high {
@@ -23,7 +31,8 @@ em {
 }
 
 .otsikkotausta {
-  height: 400px;
+  height: 250px;
+  text-align: center;
 }
 
 .asia {
@@ -35,8 +44,20 @@ em {
   height: 600px;
 }
 
+#kappyra {
+  width: 300px;
+  alignment: center;
+  background: transparent;
+}
+
 #this {
-  border: 2px solid #ff0000;
+  border: 4px groove #ff0000;
+  padding: 3px 20px;
   background-color: rgba(255,0,0, 0.2);
 }
 
+#taulu {
+  width: 30%;
+  border: 15px groove saddlebrown;
+  padding: 5px 5px 10px 5px;
+}
