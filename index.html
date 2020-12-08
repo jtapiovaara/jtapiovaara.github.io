@@ -5,6 +5,7 @@
     <title>MyGit</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
 <!--    <style>-->
 <!--        body {-->
 <!--            background-color: #d5ffa2;-->
@@ -13,6 +14,7 @@
 </head>
 <!--<body style="background-color: #d5ffa2">-->
 <body>
+<a href="palot.htm" style="color: cornsilk">Chilikuva</a>
 <div class="otsikkotausta container">
     <h2>jtapiovaara.github.io</h2>
     <img src="images/kappyra.png" alt="Käppyrä" id="kappyra">
@@ -63,9 +65,14 @@
     <br>
     <progress value="15" max="20"></progress> Target is all blue!
     <figure style="text-align: center">
-        <img src="images/chili_stilleben.jpg" id="taulu" alt="Kaunis taulu">
+        <img src="images/chili_stilleben.jpg" id="taulu" alt="Kaunis taulu" usemap="#chilit">
         <figcaption><i>Karo Tapiovaara, Chilli stillleben, 2020</i></figcaption>
     </figure>
-    </div>
+</div>
+<div class="morecss container">
+    <map name="chilit">
+        <area shape="rect" coords="125,145,230,230" alt="Palot" href="palot.htm" target="_blank">
+    </map>
+</div>
 </body>
 </html>

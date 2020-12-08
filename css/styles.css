@@ -16,7 +16,9 @@ meter {
 }
 
 p.high {
-  background-color: rgba(0,255,0, 0.8);
+  background-color: rgba(0,255,0, 0.3);
+  /*border: 1px solid rgb(0,255,0);*/
+  border-radius: 10px 25px 10px 25px;
   text-align: center;
 }
 
@@ -45,6 +47,10 @@ em {
   height: 600px;
 }
 
+.morecss {
+  height: 300px;
+}
+
 #kappyra {
   width: 35%;
   alignment: center;
@@ -53,6 +59,7 @@ em {
 
 #this {
   border: 4px groove #ff0000;
+  border-radius: 8%;
   padding: 3px 20px;
   background-color: rgba(255,0,0, 0.2);
 }
