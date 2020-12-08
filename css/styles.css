@@ -1,5 +1,10 @@
+body {
+  background-image: linear-gradient(#336699, #d5ffa2);
+}
+
 h2{
-  color: #336699;
+  border: 1px dotted #d5ffa2;
+  color: #996633;
 }
 
 p.high {
@@ -14,23 +19,24 @@ em {
 }
 
 .refet {
-  background-color: rgba(100,200,100, 0.5);
   font-style: oblique;
 }
 
 .otsikkotausta {
-  background-color: rgba(255,0,0, 0.5);
+  height: 400px;
 }
 
 .asia {
   font-family: "PoliteType", sans-serif;
+  height: 600px;
 }
 
 .mygits {
-  background-color: rgba(255,255,0, 0.2);
+  height: 600px;
 }
 
 #this {
-  background-color: rgba(255,0,0, 0.4);
+  border: 2px solid #ff0000;
+  background-color: rgba(255,0,0, 0.2);
 }
 
