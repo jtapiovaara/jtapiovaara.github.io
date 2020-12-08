@@ -45,7 +45,7 @@ em {
 }
 
 #kappyra {
-  width: 300px;
+  width: 35%;
   alignment: center;
   background: transparent;
 }
@@ -57,7 +57,7 @@ em {
 }
 
 #taulu {
-  width: 30%;
+  width: 35%;
   border: 15px groove saddlebrown;
   padding: 5px 5px 10px 5px;
 }
