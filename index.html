@@ -3,11 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <title>MyGit</title>
-<!--    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">-->
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
     <link rel="stylesheet" type="text/css" href="css/styles.css" />
     <link rel="icon" href="favicon.ico" type="image/x-icon">
-
 </head>
 <body>
 <div class="w3-container otsikkotausta">
@@ -72,6 +71,10 @@
             <img src="images/lähiluonto_logo_2.png" class="w3-round" style="width: 10%" alt="Canada">
                 Luonnonmuistomerkkejä</li>
     </ul>
+    <p id="demo">- näihin voi laittaa toiminnon, jolla käyttäjä voi antaa arvioita projekteista. ne summataan alle.</p>
+<!--    <p id="demo">JavaScript can change HTML content.</p>-->
+
+    <button  type="button" onclick='document.getElementById("demo").innerHTML = "JavaScript can change HTML content."'>Miten? Click Me!</button>
     <br>
     <progress value="15" max="20"></progress> Target is all blue!
 </div>

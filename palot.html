@@ -6,6 +6,22 @@
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/styles.css" />
+
+    <script>
+        function perus() {
+            document.getElementById('taululg').src='images/chili_stilleben.jpg'
+        }
+        function kubismi() {
+            document.getElementById('taululg').src='images/chili_stilleben_cubistic.jpg'
+        }
+        function sarjakuva() {
+            document.getElementById('taululg').src='images/chili_stilleben_cartoonisch.jpg'
+        }
+        function vesivari() {
+            document.getElementById('taululg').src='images/chili_stilleben_water.jpg'
+        }
+    </script>
+
 </head>
 <body>
 <div class="w3-padding w3-jumbo">
@@ -13,10 +29,18 @@
         <i class="fa fa-home"></i>
     </a>
 </div>
-<div class="w3-container" style="text-align: center">
-    <img src="images/chili_stilleben.jpg" id="taululg" class="w3-hover-sepia">
-    <p>Read more about <a href="https://en.wikipedia.org/wiki/chili" target="_blank">chilis on Wikipedia</a></p>
-</div>
+<div class="w3-container taululg w3-cell-row" style="text-align: center">
+    <div class="w3-cell">
+        <img id="taululg" src="images/chili_stilleben.jpg">
+    </div>
+    <div class="w3-cell w3-cell-middle">
+        <button style="margin-bottom: 8px" onclick="perus()">Alkuperäinen työ</button><br>
+        <button style="margin-bottom: 8px" onclick="kubismi()">Kubismia</button><br>
+        <button style="margin-bottom: 8px" onclick="sarjakuva()">Sarjakuvaa</button><br>
+        <button style="margin-bottom: 8px" onclick="vesivari()">Vesiväreillä</button><br>
 
+    </div>
+</div>
+    <p style="text-align: center">Read more about <a href="https://en.wikipedia.org/wiki/chili" target="_blank">chilis on Wikipedia</a></p>
 </body>
 </html>
