@@ -45,7 +45,7 @@ em {
   height: auto;
 }
 
-.mygits {
+#demo {
   text-align: center;
 }
 
@@ -53,17 +53,6 @@ em {
   width: 50%;
   text-align: center;
   background: transparent;
-}
-
-#githubs {
-  /*background-color: #faffe3;*/
-  list-style-type: none;
-  text-decoration: none;
-  text-align: center;
-}
-
-#githubs li {
-  display: inline;
 }
 
 #taulusm {

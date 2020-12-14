@@ -7,6 +7,11 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
     <link rel="stylesheet" type="text/css" href="css/styles.css" />
     <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <script>
+        function koodaaJavaaNappi() {
+        document.getElementById("demo").innerHTML = "JavaScript can change HTML content."
+        }
+    </script>
 </head>
 <body>
 <div class="w3-container otsikkotausta">
@@ -15,7 +20,6 @@
         <img src="images/fullstack.png" alt="Minun FullStack osaaminen" id="myfullstack">
         <figcaption><i>- Kuvassa FullStack osaamistani edustavat kuvakkeet -</i></figcaption>
     </figure>
-
 </div>
 <div class="w3-container asia">
     <p>Seitsemän vuotta sitten tein riskipäätöksen seuratakseni omaa visiotani ja perustin yrityksen, jonka missiona
@@ -53,30 +57,34 @@
 <div class="w3-panel">
     <p class="panelteksti">Työn alla olevaa:</p>
 </div>
-<div class="w3-container mygits">
-    <ul id="githubs">
-        <li><meter id="p1CvApp" value="2" min="0" max="5"></meter>
-            <img src="images/p1mycvapp.png" class="w3-round" style="width: 10%" alt="Canada">
-            <a href="https://github.com/jtapiovaara/p1CvApp" target = _blank style="text-decoration: none">
-                p1CvApp - ensimmäinen työni; CV</a></li>
-        <li><meter id="MyStartUps" value="4" min="0" max="5"></meter>
-            <img src="images/mystartup.png" class="w3-round" style="width: 10%" alt="Canada">
-            <a href="https://github.com/jtapiovaara/MyStartUps" target = _blank style="text-decoration: none">
-                MyStartUps - koodauksen pelikenttä</a></li>
-        <li><meter id="p5blogi" value="4" min="0" max="5"></meter>
-            <img src="images/bloki.png" class="w3-round" style="width: 10%" alt="Canada">
-            <a href="https://github.com/jtapiovaara/p5blogi" target = _blank style="text-decoration: none">
-                p5blogi - My Journey to Django</a></li>
-        <li><meter id="KaroT" value="5" min="0" max="5"></meter>
-            <img src="images/lähiluonto_logo_2.png" class="w3-round" style="width: 10%" alt="Canada">
-                Luonnonmuistomerkkejä</li>
-    </ul>
-    <p id="demo">- näihin voi laittaa toiminnon, jolla käyttäjä voi antaa arvioita projekteista. ne summataan alle.</p>
-<!--    <p id="demo">JavaScript can change HTML content.</p>-->
+<div class="w3-container">
+    <div class="w3-cell-row">
+        <div class="w3-cell">
+            <button class="w3-circle" id="p1CvApp" value="2">2</button>
+            <a href="https://github.com/jtapiovaara/p1CvApp" target = _blank >
+                <img src="images/p1mycvapp.png" class="w3-round w3-image w3-margin" alt="Canada">
+            </a>
+        </div>
+        <div class="w3-cell">
+            <button class="w3-circle" id="MyStartUps" value="2">4</button>
+            <a href="https://github.com/jtapiovaara/MyStartUps" target = _blank>
+                <img src="images/mystartup.png" class="w3-round w3-image" alt="Canada">
+            </a>
+        </div>
+        <div class="w3-cell">
+            <button class="w3-circle" id="p5blogi" value="2">4</button>
+            <a href="https://github.com/jtapiovaara/p5blogi" target = _blank>
+                <img src="images/bloki.png" class="w3-round w3-image w3-margin" alt="Canada">
+            </a>
+        </div>
+        <div class="w3-cell">
+            <button class="w3-circle" id="LMM" value="2">5</button>
+            <img src="images/lähiluonto_logo_2.png" class="w3-round w3-image" alt="Canada">
+        </div>
 
-    <button  type="button" onclick='document.getElementById("demo").innerHTML = "JavaScript can change HTML content."'>Miten? Click Me!</button>
-    <br>
-    <progress value="15" max="20"></progress> Target is all blue!
+    </div>
+    <p id="demo">- näihin voi laittaa toiminnon, jolla käyttäjä voi antaa arvioita projekteista. ne summataan alle.
+    <button  type="button" onclick='koodaaJavaaNappi()'>&nbsp;Miten? Click Me!</button></p>
 </div>
 <div class="w3-panel">
     <p class="panelteksti">
@@ -91,14 +99,13 @@
     </figure>
     <div>
         <map name="chilit">
-            <area shape="rect" coords="100,100,250,250" alt="Palot" href="palot.html" target="_blank">
+            <area shape="rect" coords="100,100,250,250" alt="Palot" href="palot.html">
         </map>
     </div>
 </div>
 <div class="w3-container w3-light-gray w3-card w3-margin-bottom w3-opacity" id="footerlinks">
     <div class="w3-cell-row">
         <div class="w3-container w3-cell">
-<!--        <div class="w3-container w3-card w3-margin-top">-->
             <p style="text-decoration: underline">Kuva taulusta:</p>
             <a href="palot.html">Chilikuva</a>
         </div>
