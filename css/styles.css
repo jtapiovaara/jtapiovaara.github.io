@@ -3,7 +3,8 @@ body,h1,h2,h3,h4,h5,h6 {
 }
 
 body {
-  background-image: linear-gradient(to bottom, white 40%, grey);
+  /*background-image: linear-gradient(to bottom, white 40%, grey);*/
+  background-color: lightgray;
   width: 80%;
   margin-left: auto;
   margin-right: auto;
@@ -43,6 +44,10 @@ em {
 
 .asia {
   height: auto;
+}
+
+.asia b {
+  font-size: x-large;
 }
 
 #demo {
