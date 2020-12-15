@@ -3,27 +3,18 @@ body,h1,h2,h3,h4,h5,h6 {
 }
 
 body {
-  /*background-image: linear-gradient(to bottom, white 40%, grey);*/
   background-color: lightgray;
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 h1 {
   border-bottom: 2px dotted lightgrey;
   color: chocolate;
-  background-image: url("../images/lähiluonto_logo_2.png");
-  background-size: 3%;
-  background-repeat: no-repeat;
-  font-size: 64px;
 }
 
 p.panelteksti {
-  background-color: rgba(225,225,160, 0.2);
-  color: chocolate;
+  /*background-color: rgba(225,225,160, 0.2);*/
+  /*color: chocolate;*/
   text-align: center;
-  font-size: x-large;
 }
 
 em {
