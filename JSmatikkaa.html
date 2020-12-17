@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <title>MyGit</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-2021.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+</head>
+<body>
+<div class="w3-padding w3-jumbo">
+    <a href="index.html">
+        <i class="fa fa-home"></i>
+    </a>
+</div>
+<div class="w3-container w3-margin w3-gray" style="text-align: center">
+    <p>Olen suuri JS guru - one day</p>
+    <button class="w3-btn" onclick="vastaaOiGuru()">Miten tulen guruksi, oi tietokoneohjelma?</button>
+    <button class="w3-btn" onclick="laskePii()">Laske minulle Pii, kun kerran osaat</button>
+    <p id="guruus"></p> <p id="piinumero"></p>
+</div>
+<div class="w3-container">
+    <div class="w3-cell-row">
+        <div class="w3-cell-top">
+            <div class="w3-padding w3-blue">
+                <h2>Maailman nopein laskukone</h2>
+            </div>
+            <label for="ika">Ikäsi</label>
+            <input class="w3-input" id="ika" type="number" placeholder="Kirjoita tähän ikäsi">
+            <label for="kenka">Kengännumerosi</label>
+            <input class="w3-input" id="kenka" type="number" placeholder="Kirjoita tähän kengännumerosi">
+                <button class="w3-btn w3-margin w3-xlarge w3-white" onclick="aIo()">ÄO'si</button>
+                <button class="w3-badge" id="summa">10</button>
+        </div>
+        <div class="w3-cell">
+            <p class="w3-padding">Tähän jotain ihan muuta, tiedä häntä mitä kummaa</p>
+        </div>
+        <div class="w3-cell-middle">
+            <img src="images/kappyra.png" alt="Hieno käppyrä">
+        </div>
+    </div>
+</div>
+<script>
+    function vastaaOiGuru() {
+        alert(document.getElementById("guruus").innerText='Arbeit macht ein Meister')
+    }
+    function laskePii(){
+        var piiAmount=Math.floor(Math.random() * 10)
+        alert(document.getElementById('piinumero').innerText=Math.PI.toFixed(piiAmount))
+    }
+    function aIo() {
+        let ao, ikanro, kenkanro
+        ikanro = document.getElementById('ika').value
+        kenkanro = document.getElementById('kenka').value
+        ao = Math.round((kenkanro*ikanro)/10)
+        document.getElementById('summa').innerHTML= ao
+    }
+</script>
+</body>
+</html>

@@ -8,11 +8,6 @@
     <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-2021.css">
     <link rel="stylesheet" type="text/css" href="css/styles.css" />
     <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <script>
-        function koodaaJavaaNappi() {
-        document.getElementById("demo").innerHTML = "JavaScript can change HTML content."
-        }
-    </script>
 </head>
 <body>
 <div class="w3-display-container">
@@ -139,8 +134,9 @@
 <div class="w3-container w3-light-gray w3-card w3-margin-bottom w3-opacity" id="footerlinks">
     <div class="w3-cell-row">
         <div class="w3-container w3-cell">
-            <p style="text-decoration: underline">Kuva taulusta:</p>
-            <a href="palot.html">Chilikuva</a>
+            <p style="text-decoration: underline">Sivukartta:</p>
+            <a href="palot.html">Chilikuva</a><br>
+            <a href="JSmatikkaa.html">JavaScript koekenttä</a>
         </div>
         <div class="w3-container w3-cell">
             <p style="text-decoration: underline">Referenssiasiakkaita:</p>
@@ -168,5 +164,12 @@
     </div>
 </div>
 </div>
+<script>
+    function koodaaJavaaNappi() {
+        alert(document.getElementById("demo").innerText='Arbeit macht ein Meister')
+        document.getElementById("demo").innerHTML = "Learn JavaScript and you can change HTML content."
+    }
+</script>
+
 </body>
 </html>
