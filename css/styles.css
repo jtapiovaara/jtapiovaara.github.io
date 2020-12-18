@@ -23,50 +23,54 @@ em {
   border: 2px solid darkcyan;
 }
 
-.refet {
+.indexrefet {
   font-style: oblique;
 }
 
-.otsikkotausta {
+.indexotsikkotausta {
   padding-top: 10px;
   height: auto;
   text-align: center;
 }
 
-.asia {
+.indexasia {
   height: auto;
 }
 
-.asia b {
+.indexasia b {
   font-size: x-large;
 }
 
-#demo {
+#indexdemo {
   text-align: center;
 }
 
-#myfullstack {
+#indexmyfullstack {
   width: 50%;
   text-align: center;
   background: transparent;
 }
 
-#taulusm {
+#indextaulusm {
   width: 25%;
   border: 15px groove saddlebrown;
   padding: 5px 5px 10px 5px;
 }
 
-#taululg {
+#palottaululg {
   border: 25px groove saddlebrown;
   padding: 7px 7px 12px 7px;
 }
 
-#footerlinks a {
+#indexfooterlinks a {
   text-decoration: none;
 }
 
-#footerlinks a:hover{
+#indexfooterlinks a:hover{
   color: chocolate;
+}
+
+#jsmatikkaajskuva:hover {
+  opacity: 0.5;
 }
 
