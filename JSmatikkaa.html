@@ -24,7 +24,7 @@
 </div>
 <div class="w3-container">
     <div class="w3-cell-row">
-        <div class="w3-cell-top w3-mobile">
+        <div class="w3-container w3-cell-top w3-mobile">
             <div class="w3-padding w3-blue">
                 <h2>Maailman nopein laskukone</h2>
             </div>
@@ -32,12 +32,12 @@
             <input class="w3-input" id="ika" type="number" placeholder="Kirjoita tähän ikäsi">
             <label for="kenka">Kengännumerosi</label>
             <input class="w3-input" id="kenka" type="number" placeholder="Kirjoita tähän kengännumerosi">
-                <button class="w3-btn w3-margin w3-xlarge w3-white" onclick="aIo()">ÄO'si</button>
+                <button class="w3-btn w3-margin w3-xlarge w3-white" onclick="alykkyys()">ÄO'si</button>
                 <button class="w3-badge" id="summa">10</button>
         </div>
-        <div class="w3-cell w3-mobile w3-margin" style="text-align: center">
+        <div class="w3-container w3-cell w3-mobile w3-margin" style="text-align: center">
             <p class="w3-padding">Tähän jotain ihan muuta, tiedä häntä mitä kummaa</p>
-            <img class="w3-padding" src="images/JS.png" alt="JavaScript!">
+            <img class="w3-padding" src="images/JS.png" onclick="pyoriJS" alt="JavaScript!">
         </div>
     </div>
 </div>
@@ -49,12 +49,15 @@
         var piiAmount=Math.floor(Math.random() * 10)
         alert(document.getElementById('piinumero').innerText=Math.PI.toFixed(piiAmount))
     }
-    function aIo() {
+    function alykkyys() {
         let ao, ikanro, kenkanro
         ikanro = document.getElementById('ika').value
         kenkanro = document.getElementById('kenka').value
         ao = Math.round((kenkanro*ikanro)/10)
         document.getElementById('summa').innerHTML= ao
+    }
+    function pyoriJS(){
+
     }
 </script>
 </body>
