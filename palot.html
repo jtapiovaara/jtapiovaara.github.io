@@ -7,13 +7,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/styles.css" />
     <script>
-        function perus() {
+        perus=()=> {
             document.getElementById('palottaululg').src='images/chili_stilleben.jpg'
         }
-        function kubismi() {
+        kubismi=()=> {
             document.getElementById('palottaululg').src='images/chili_stilleben_cubistic.jpg'
         }
-        function sarjakuva() {
+        sarjakuva=()=> {
             document.getElementById('palottaululg').src='images/chili_stilleben_cartoonisch.jpg'
         }
         function vesivari() {
@@ -46,13 +46,20 @@
         </figure>
     </div>
     <div class="w3-cell w3-cell-middle w3-mobile">
-        <button class="w3-btn w3-margin w3-xxlarge w3-white" onclick="perus()">Alkuperäinen työ</button><br>
-        <button class="w3-btn w3-margin w3-xxlarge w3-white" onclick="vesivari()">Vesiväreillä</button><br>
-        <button class="w3-btn w3-margin w3-xxlarge w3-white" onclick="sarjakuva()">Sarjakuvaa</button><br>
-        <button class="w3-btn w3-margin w3-xxlarge w3-white" onclick="mosaiikki()">Mosaiikki</button><br>
-        <button class="w3-btn w3-margin w3-xxlarge w3-white" onclick="kubismi()">Kubismia</button><br>
-        <button class="w3-btn w3-margin w3-xxlarge w3-white" onclick="pikseli()">Pikseleitä</button><br>
-        <button class="w3-btn w3-margin w3-xxlarge w3-white" onclick="kaleidoskooppi()">Kaleidoscope!</button><br>
+        <button class="w3-btn w3-margin w3-xxlarge w3-white w3-animate-bottom" onclick="perus()">
+            Alkuperäinen työ</button><br>
+        <button class="w3-btn w3-margin w3-xxlarge w3-white w3-animate-left" onclick="vesivari()">
+            Vesiväreillä</button><br>
+        <button class="w3-btn w3-margin w3-xxlarge w3-white w3-animate-right" onclick="sarjakuva()">
+            Sarjakuvaa</button><br>
+        <button class="w3-btn w3-margin w3-xxlarge w3-white w3-animate-left" onclick="mosaiikki()">
+            Mosaiikki</button><br>
+        <button class="w3-btn w3-margin w3-xxlarge w3-white w3-animate-top" onclick="kubismi()">
+            Kubismia</button><br>
+        <button class="w3-btn w3-margin w3-xxlarge w3-white w3-animate-bottom" onclick="pikseli()">
+            Pikseleitä</button><br>
+        <button class="w3-btn w3-margin w3-xxlarge w3-white w3-animate-top" onclick="kaleidoskooppi()">
+            Kaleidoscope!</button><br>
     </div>
 </div>
 </body>
