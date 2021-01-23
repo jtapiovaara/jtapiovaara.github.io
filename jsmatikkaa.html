@@ -10,23 +10,20 @@
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <script>
         function vastaaOiGuru() {
-            alert(document.getElementById("guruus").innerText='Arbeit macht ein Meister')
+            alert(document.getElementById("guruus").innerText='Ubung macht ein Meister')
         }
         function laskePii() {
             let piiAmount = Math.floor(Math.random() * 10)
-
             alert(document.getElementById('piinumero').innerText=Math.PI.toFixed(piiAmount))
         }
         function alykkyys() {
             let ikanro = document.getElementById('ika'),
                 kenkanro = document.getElementById('kenka')
-
             document.getElementById('summa').innerText=
                 Math.round(Math.random() * (kenkanro.value * ikanro.value) / 10)
         }
         function pyoriJS(){
             let teksti = document.getElementById('tarina')
-
             teksti.innerText='No jopas, määhän muutuin!'
         }
     </script>
@@ -62,6 +59,5 @@
         </div>
     </div>
 </div>
-
 </body>
 </html>
