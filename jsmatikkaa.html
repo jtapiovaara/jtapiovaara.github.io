@@ -29,6 +29,34 @@
     </script>
 </head>
 <body>
+<p>Avaa konsoli (ctrl+shift+i) ja katso kuinka alla oleva alunperin "oot uuno" lausahdus muuttuu, kun JS funktio muuttaa klobaalin muuutujan sille lokaalina takaisin klobaaliksi. Perce?</p>
+<small>
+    let mysteeri = 'oot uuno'<br>
+    console.log('Alunperin muuttuja on: '+ mysteeri)<br>
+    function myFunction() {<br>
+        mysteeri = 'ai mä oon "'+mysteeri+'"? haist ite'<br>
+        console.log(mysteeri + ' - helppo sanoa suojassa funktion sisällä. Nyt mysteeri muuttui.')<br>
+        return mysteeri;<br>
+    }<br>
+    console.log(mysteeri + ' yhä vaan, ennen funktiota. Sama, vaikka konsolointi koodirivin alla.  Funktiota ei siis ole kutsuttu. Vielä.')<br>
+    document.getElementById("demo").innerHTML = myFunction();<br>
+    console.log(mysteeri + ' kertaa kaksi vaikka! Muuttuja on muuttunut, se on nyt: ' +mysteeri)<br>
+</small>
+
+<p id="demo"></p>
+<script>
+    let mysteeri = 'oot uuno'
+    console.log('Alunperin muuttuja on: '+ mysteeri)
+    function myFunction() {
+        mysteeri = 'ai mä oon "'+mysteeri+'"? haist ite'
+        console.log(mysteeri + ' - helppo sanoa suojassa funktion sisällä. Nyt mysteeri muuttui.')
+        return mysteeri;
+    }
+    console.log(mysteeri + ' yhä vaan, ennen funktiota. Sama, vaikka konsolointi koodirivin alla.  Funktiota ei siis ole kutsuttu. Vielä.')
+    document.getElementById("demo").innerHTML = myFunction();
+    console.log(mysteeri + ' kertaa kaksi vaikka! Muuttuja on muuttunut, se on nyt: ' +mysteeri)
+</script>
+
 <div class="w3-padding w3-jumbo">
     <a href="index.html">
         <i class="fa fa-home"></i>
