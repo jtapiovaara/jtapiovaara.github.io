@@ -1,75 +1,35 @@
 body,h1,h2,h3,h4,h5,h6 {
-  font-family: Roboto, Arial, sans-serif;
-}
-
-body {
-  background-color: lightgray;
+  font-family: Arial, sans-serif;
 }
 
 h1 {
-  border-bottom: 2px dotted lightgrey;
+  color: chocolate;
+  text-align: center;
+  background-color: cornflowerblue;
+}
+
+#korttiheader {
   color: chocolate;
 }
 
-p.panelteksti {
-  /*background-color: rgba(225,225,160, 0.2);*/
-  /*color: chocolate;*/
-  text-align: center;
-}
-
-em {
-  padding: 3px;
-  color: chocolate;
-  border: 2px solid darkcyan;
-}
-
-.indexrefet {
-  font-style: oblique;
-}
-
-.indexotsikkotausta {
-  height: auto;
-  text-align: center;
-}
-
-.indexasia {
-  height: auto;
-}
-
-.indexasia b {
-  font-size: x-large;
-}
-
-#indexdemo {
-  text-align: center;
-}
-
-#indexmyfullstack {
+#fullstack {
   width: 50%;
   text-align: center;
   background: transparent;
 }
 
-#indextaulusm {
-  width: 25%;
+#chillistillleben {
+  width: 50%;
   border: 15px groove saddlebrown;
   padding: 5px 5px 10px 5px;
 }
 
-#palottaululg {
-  border: 25px groove saddlebrown;
-  padding: 7px 7px 12px 7px;
-}
-
-#indexfooterlinks a {
+#korttiheader a {
   text-decoration: none;
 }
 
-#indexfooterlinks a:hover{
+#korttiheader a:hover{
   color: black;
 }
 
-#jsmatikkaajskuva:hover {
-  opacity: 0.5;
-}
 
