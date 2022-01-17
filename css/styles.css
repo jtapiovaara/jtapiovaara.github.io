@@ -35,6 +35,7 @@
 }
 
 #vanhanukonmuotokuva {
+  max-width: 400px;
   border: 15px groove saddlebrown;
 }
 
