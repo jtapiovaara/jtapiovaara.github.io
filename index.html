@@ -4,26 +4,13 @@
     <meta charset="UTF-8">
     <title>MyGit</title>
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
-    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-amber.css">
     <link rel="stylesheet" type="text/css" href="css/styles.css" />
     <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <script>
-    function koodaaJavaaNappi() {
-        alert(document.getElementById("indexdemo").innerText='Arbeit macht ein Meister')
-        document.getElementById("indexdemo").innerHTML = "Learn JavaScript and you can change HTML content."
-    }
-    </script>
 </head>
-<style>
-    b {
-        color: black;
-    }
-</style>
 <body>
-<div class="w3-card-4" id="kokokortti">
-        <h1>jtapiovaara.github.io</h1>
-    <div class="w3-container w3-margin-bottom w3-xxxlarge" id="korttiheader">
+<div class="w3-margin w3-card-4 w3-mobile" id="kokokortti">
+        <h1 id="otsikko">jtapiovaara.github.io</h1>
+    <div class="w3-container w3-margin-bottom" id="korttiheader">
         <div class="w3-container">
             <ul class="w3-ul">
                 <li>
@@ -44,15 +31,21 @@
             </ul>
         </div>
     </div>
-    <div class="w3-container w3-center w3-margin w3-padding-16" id="korttimain">
+    <div class="w3-container" id="korttimain">
             <figure>
-                <img class="w3-image" style="width:50%" src="images/wordcloud.jpg" alt="Minun FullStack osaaminen" id="fullstack">
-                <figcaption><i>Kuvassa FullStack osaamistani, etusormessa OURA Ring</i></figcaption>
+                <img id="fullstackkuva"
+                     class="w3-image"
+                     src="images/wordcloud.jpg"
+                     alt="Minun FullStack osaaminen">
+                <figcaption><i>myFullstack, +htmx </i></figcaption>
             </figure>
     </div>
-    <div class="w3-container w3-padding-48 w3-theme" id="korttifooter">
-        <figure style="text-align: center">
-            <img src="images/chili_stilleben.jpg" id="chillistillleben" alt="Kaunis taulu">
+    <div class="w3-container" id="korttifooter">
+        <figure>
+            <img id="chillistilllebenkuva"
+                 class="w3-image"
+                 src="images/chili_stilleben.jpg"
+                 alt="Kaunis taulu">
             <figcaption><i>Karo Tapiovaara, Chilli stillleben, 2020</i></figcaption>
         </figure>
     </div>

@@ -1,35 +1,38 @@
-body,h1,h2,h3,h4,h5,h6 {
-  font-family: Arial, sans-serif;
+
+#kokokortti {
+
 }
 
-h1 {
-  color: chocolate;
+#otsikko {
+  color: darkgreen;
   text-align: center;
-  background-color: cornflowerblue;
+  background-color: lightblue;
 }
 
 #korttiheader {
   color: chocolate;
+  font-size:5vw;
 }
-
-#fullstack {
-  width: 50%;
-  text-align: center;
-  background: transparent;
-}
-
-#chillistillleben {
-  width: 50%;
-  border: 15px groove saddlebrown;
-  padding: 5px 5px 10px 5px;
-}
-
 #korttiheader a {
   text-decoration: none;
 }
-
 #korttiheader a:hover{
   color: black;
 }
+
+#korttimain {
+  text-align: center;
+}
+#fullstackkuva {
+
+}
+
+#korttifooter {
+  text-align: center;
+}
+#chillistilllebenkuva {
+  border: 15px groove saddlebrown;
+}
+
 
 
